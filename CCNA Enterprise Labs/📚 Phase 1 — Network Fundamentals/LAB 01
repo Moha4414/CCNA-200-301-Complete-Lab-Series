@@ -1,0 +1,41 @@
+# LAB 01 – Enterprise Device Hardening & Initial Configuration
+
+## Overview
+
+This lab prepares a Cisco switch for production deployment by applying enterprise security best practices. The configuration includes device hardening, secure local and remote access, management VLAN configuration, password protection, SSH, and verification procedures.
+
+## Skills Learned
+
+- Enterprise device hardening
+- Secure console configuration
+- SSH configuration
+- Local user authentication
+- Password encryption
+- Management VLAN configuration
+- Switch management
+- Configuration verification
+- Basic troubleshooting
+
+## Technologies
+
+- Cisco IOS
+- SSH Version 2
+- RSA Encryption
+- VLAN 99
+- Local Authentication
+
+## Verification
+
+- show ip ssh
+- show ip interface brief
+- show running-config
+- show vlan brief
+- show crypto key mypubkey rsa
+
+## Lessons Learned
+
+This lab demonstrates that securing a network device begins before it is connected to the production network. Proper device hardening reduces security risks and establishes a secure foundation for future network services.
+
+## Status
+
+✅ Completed
