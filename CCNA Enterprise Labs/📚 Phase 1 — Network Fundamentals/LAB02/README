@@ -1,0 +1,47 @@
+# LAB 02 – Enterprise VLAN Design & Implementation
+
+## Overview
+
+This lab demonstrates how to design and implement VLANs in an enterprise environment. Instead of simply creating VLANs, the lab focuses on planning, documentation, security, and operational best practices.
+
+## Objectives
+
+- Create enterprise VLANs
+- Assign switch ports
+- Secure unused interfaces
+- Configure PortFast and BPDU Guard
+- Document interface assignments
+- Verify VLAN operation
+
+## VLAN Plan
+
+| VLAN | Name |
+|------|------|
+| 10 | HR |
+| 20 | SALES |
+| 30 | IT |
+| 99 | MANAGEMENT |
+| 999 | BLACKHOLE |
+
+## Skills Learned
+
+- VLAN Design
+- Access Port Configuration
+- Interface Documentation
+- Port Security Best Practices
+- Broadcast Domain Segmentation
+- Enterprise Switch Configuration
+
+## Verification
+
+- show vlan brief
+- show interfaces status
+- show running-config
+
+## Lessons Learned
+
+VLANs improve security, reduce broadcast traffic, and simplify network management. Proper planning, documentation, and securing unused ports are essential enterprise practices.
+
+## Status
+
+✅ Completed
